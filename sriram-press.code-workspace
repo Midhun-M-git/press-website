@@ -1,0 +1,43 @@
+{
+  "folders": [
+    {
+      "name": "SRIRAM PRESS Website",
+      "path": "."
+    },
+    {
+      "name": "Website Files",
+      "path": "./press"
+    },
+    {
+      "name": "Assets & Images",
+      "path": "./press-website-images"
+    }
+  ],
+  "settings": {
+    "liveServer.settings.port": 5500,
+    "liveServer.settings.root": "/press",
+    "editor.formatOnSave": true,
+    "files.autoSave": "afterDelay"
+  },
+  "extensions": {
+    "recommendations": [
+      "ritwickdey.liveserver",
+      "formulahendry.auto-rename-tag",
+      "pranaygp.vscode-css-peek",
+      "esbenp.prettier-vscode",
+      "ms-vscode.live-server"
+    ]
+  },
+  "launch": {
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Launch Website",
+        "type": "chrome",
+        "request": "launch",
+        "url": "http://localhost:5500/pressnew.html",
+        "webRoot": "${workspaceFolder}/press"
+      }
+    ]
+  }
+}

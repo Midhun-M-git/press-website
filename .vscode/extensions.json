@@ -1,0 +1,21 @@
+{
+  "recommendations": [
+    "ritwickdey.liveserver",
+    "formulahendry.auto-rename-tag",
+    "bradlc.vscode-tailwindcss",
+    "pranaygp.vscode-css-peek",
+    "zignd.html-css-class-completion",
+    "ecmel.vscode-html-css",
+    "ms-vscode.vscode-json",
+    "esbenp.prettier-vscode",
+    "formulahendry.auto-close-tag",
+    "christian-kohler.path-intellisense",
+    "ms-vscode.vscode-typescript-next",
+    "hookyqr.beautify",
+    "vincaslt.highlight-matching-tag",
+    "oderwat.indent-rainbow",
+    "pkief.material-icon-theme",
+    "kamikillerto.vscode-colorize",
+    "ms-vscode.live-server"
+  ]
+}
