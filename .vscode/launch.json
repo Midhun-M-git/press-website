@@ -1,0 +1,32 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch with Live Server",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:5500/pressnew.html",
+      "webRoot": "${workspaceFolder}/press",
+      "preLaunchTask": "Start Live Server"
+    },
+    {
+      "name": "Debug JavaScript",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:5500/pressnew.html",
+      "webRoot": "${workspaceFolder}/press",
+      "sourceMaps": true,
+      "breakOnLoad": true,
+      "pathMappings": {
+        "/": "${workspaceFolder}/press/"
+      }
+    },
+    {
+      "name": "Attach to Chrome",
+      "type": "chrome",
+      "request": "attach",
+      "port": 9222,
+      "webRoot": "${workspaceFolder}/press"
+    }
+  ]
+}

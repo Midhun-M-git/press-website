@@ -1,0 +1,47 @@
+{
+  "name": "sriram-press-website",
+  "version": "1.0.0",
+  "description": "A website created for a press shop - SRIRAM PRESS",
+  "main": "press/pressnew.html",
+  "scripts": {
+    "start": "cd press && python3 -m http.server 5500",
+    "dev": "cd press && python3 -m http.server 5500",
+    "format": "prettier --write press/**/*.{html,css,js}",
+    "format:html": "prettier --write press/**/*.html",
+    "format:css": "prettier --write press/**/*.css",
+    "format:js": "prettier --write press/**/*.js",
+    "lint": "eslint press/**/*.js",
+    "serve": "live-server press --port=5500",
+    "build": "echo 'No build step required for static website'",
+    "preview": "cd press && python3 -m http.server 8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Midhun-M-git/press-website.git"
+  },
+  "keywords": [
+    "press",
+    "printing",
+    "website",
+    "business",
+    "sriram-press",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "SRIRAM PRESS",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.0.0",
+    "eslint": "^8.0.0",
+    "live-server": "^1.2.2"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
